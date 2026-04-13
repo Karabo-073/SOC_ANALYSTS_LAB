@@ -1,0 +1,18 @@
+Developed and implemented SIEM detection queries in Splunk to identify malicious activity within the SOC environment.
+
+Key focus areas included:
+
+Detecting brute force login attempts on /DVWA/login.php
+Identifying port scanning and enumeration behaviour
+Flagging abnormal authentication patterns and repeated HTTP POST requests
+Creating threshold-based alerts (e.g., more than 5 login attempts per minute per IP)
+Reducing false positives through query refinement and tuning
+
+Example Splunk query used:
+
+index=main "POST /DVWA/login.php"
+| bin _time span=1m
+| stats count by _time, clientip
+| where count > 5
+
+These detection rules improved visibility of attacker behaviour and enhanced real-time monitoring capabilities within the SOC lab.
