@@ -1,4 +1,4 @@
-Developed and implemented SIEM detection queries in Splunk to identify malicious activity within the SOC environment.
+Developing and implementing SIEM detection queries in Splunk to identify malicious activity within the SOC environment.
 
 Key focus areas included:
 
@@ -15,4 +15,4 @@ index=main "POST /DVWA/login.php"
 | stats count by _time, clientip
 | where count > 5
 
-These detection rules improved visibility of attacker behaviour and enhanced real-time monitoring capabilities within the SOC lab.
+
