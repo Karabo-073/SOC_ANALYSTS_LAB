@@ -1,0 +1,11 @@
+Conducted proactive threat hunting activities across collected Apache and system logs to identify hidden or suspicious behaviour not immediately flagged by alerts.
+
+Activities included:
+
+Searching for unusual IP connections and repeated failed authentication attempts
+Investigating anomalous traffic patterns across time windows
+Identifying potential persistence or reconnaissance activity
+Using hypothesis-driven investigation techniques (e.g., “What if an attacker is scanning internally?”)
+Correlating multiple log sources to validate suspicious behaviour
+
+This process improved analytical thinking and strengthened the ability to detect stealthy or low-and-slow attacks that bypass traditional alert systems.
