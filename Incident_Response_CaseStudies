@@ -1,0 +1,16 @@
+Analyzed simulated cyberattacks within a controlled SOC laboratory environment, including brute force attacks, phishing simulations, and suspicious outbound network traffic.
+
+The investigation involved:
+
+Documenting attack timelines from initial access attempt to detection
+Identifying Indicators of Compromise (IOCs) from Apache logs and Splunk SIEM data
+Mapping observed attacker behaviour to the MITRE ATT&CK framework
+Assessing impact and potential risks of each simulated attack
+Developing appropriate remediation and containment strategies
+MITRE ATT&CK Mapping
+
+Observed behaviours were mapped to MITRE ATT&CK techniques:
+
+T1110 – Brute Force (Hydra attacks)
+T1078 – Valid Accounts (SSH authentication attempts)
+T1190 – Exploit Public-Facing Application (DVWA exploitation)
